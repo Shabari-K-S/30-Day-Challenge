@@ -35,6 +35,10 @@
         right: 20px;
         top: 25px;
     }
+
+    .footer .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 960px) {
