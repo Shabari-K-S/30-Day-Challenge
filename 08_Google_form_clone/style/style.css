@@ -122,6 +122,7 @@ input[type="text"]:focus{
 
 select{
     border:none;
+    background: #fff;
     border-bottom: 2px solid #dadce0;
     width: 100%;
     padding: 10px;
@@ -132,6 +133,7 @@ select{
 
 select:focus{
     outline: none;
+    background: #fff;
     border-bottom: 1px solid #1a73e8;
 }
 
