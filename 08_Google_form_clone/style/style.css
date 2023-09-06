@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #f0ebf8;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+.container{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .title{
+    background-color: #fff;
+    width: 548px;
+    height: 100%;
+    margin:20px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 10px solid #8e44ad;
+}
+
+.container .title .head {
+    font-size: 22pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-used{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5f6368;
+    padding: 10px;    
+}
+hr{
+    border: 0 transparent;
+    height: 1px;
+    background-color: #dadce0;
+    margin: 10px 0;
+}
+.switch{
+    color: #1a73e8;
+    margin-left: -10px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content .content-text{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #5f6368;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.content img{
+    margin-top:10px;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.section{
+    background-color: #fff;
+    width: 548px;
+    height: 100%;
+    margin:20px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sub-header{
+    padding:10px;
+}
+
+.input{
+    font-size: 14px;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    display: flex;
+}
+.input label{
+    padding: 10px;
+}
+
+input[type="checkbox"]:checked {
+    
+    color: white;
+}
+
+input[type="text"]{
+    border:none;
+    border-bottom: 2px solid #dadce0;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-bottom: 1px solid #1a73e8;
+}
+
+select{
+    border:none;
+    border-bottom: 2px solid #dadce0;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+select:focus{
+    outline: none;
+    border-bottom: 1px solid #1a73e8;
+}
+
+.fee{
+    display: flex;
+    align-items: center;
+}
+.fees{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    width:548px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #673ab7;
+    font-weight: 600;
+}
+.submit p{
+    margin-right: 10px;
+}
+button{
+    background-color: #673ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 14px;
+
+}
